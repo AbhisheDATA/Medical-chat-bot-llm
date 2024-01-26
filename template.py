@@ -2,7 +2,9 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
+def setup_logger():
+    logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
+    return logging.getLogger(__name__)
 
 
 list_of_files = [
