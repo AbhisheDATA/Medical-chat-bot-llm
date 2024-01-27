@@ -69,3 +69,6 @@ open up localhost:
 - Flask
 - Meta Llama2
 - Pinecone
+- Sentence transformer
+- HTML/CSS
+- Bootstrap
